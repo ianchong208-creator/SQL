@@ -1,0 +1,5 @@
+CREATE INDEX ON retail_app.onlineretail (Country);
+
+SELECT * FROM retail_app.onlineretail WHERE Country = 'France';
+
+TRACING OFF;
