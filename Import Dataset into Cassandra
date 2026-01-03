@@ -1,0 +1,6 @@
+USE retail_app;
+
+COPY OnlineRetail (InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country)
+FROM '/cleaned_online_retail.csv'
+WITH HEADER = TRUE
+AND NULL = ' ';
