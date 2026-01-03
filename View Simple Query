@@ -1,0 +1,4 @@
+TRACING ON;
+
+SELECT * FROM retail_app.onlineretail
+WHERE InvoiceNo = '536365';
