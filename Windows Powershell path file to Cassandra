@@ -1,0 +1,1 @@
+docker cp "C:\BSDA\YR 3 SEM 7\Database Management System\archive\cleaned_online_retail.csv" cassandra:/cleaned_online_retail.csv
